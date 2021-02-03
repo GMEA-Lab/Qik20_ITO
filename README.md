@@ -24,10 +24,10 @@ There are several #goals of this project and many may be inclusive of the whole 
 Bottom line: not everyone wants the same things out of this project, and that's ok. 
 
 Ground rules (Borrowed from B. Favaro):
--Treat everyone with respect and consideration
--Communicate openly and thoughtfully with others and be considerate of the multitude of views and opinions that are different than your own. 
--Be respectful and mindful of your critique of ideas.
--Be respectful of the people of Qikiqtarjuaq and their sacred land and sea, for which we are only privelaged visitors.
+-Treat everyone with respect and consideration /
+-Communicate openly and thoughtfully with others and be considerate of the multitude of views and opinions that are different than your own. /
+-Be respectful and mindful of your critique of ideas./
+-Be respectful of the people of Qikiqtarjuaq and their sacred land and sea, for which we are only privelaged visitors./
 
 Add your own:
 -Don't talk over someone when they are speaking. The loudest voice can silence others. 
