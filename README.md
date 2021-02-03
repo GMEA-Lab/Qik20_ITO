@@ -6,28 +6,28 @@ This project is a collaboration among the members of the Geoffroy Marine Ecosyst
 All of the text below, can and should be amended by any member of the team.
 
 Any member of the lab is welcome to contribute the project and contributions can take many forms including:
--data procurement
--data exploration
--data analysis
--data visualization
--literature review
--writing, editing, reviewing
+-data procurement  
+-data exploration  
+-data analysis  
+-data visualization  
+-literature review  
+-writing, editing, reviewing  
 
 Background: Starting in 2016(?), the ArcticABC team began developing an ice-tethered observatory as collaboration between engineers and ecologists to study the under-ice environment in Arctic regions. These ITOs were designed to be semi-autonomous, allowing for data transfer via iridium and radio. In 2018, the GMEA lab began the first deployment of a mooring in Qikiqtarjuaq, NU (Baffin Island). This opportunity arose from collaborations with the GreenEdge Ice camp project. The first prototype failed and was lost at sea. In 2019, we returned with a new prototype and had a successful deployment and retrieval, however the transducers on the AZFP were likely damaged due to thermal shock. In 2020, the ITO was retrofitted with new batteries and communications procedures for transmitting data. The mooring survived the season from Feb 28 to June 16th and we had several successful data download via UHF radio. The entire ITO was recovered and multiple novel data streams were retrieved. The data from the most recent deployment likely contains fascinating clues into the biophysical interactions under the sea-ice during the progression of polar spring. 
 
-Background links:
-GreenEdge: http://www.greenedgeproject.info/member_institutions.php
-ArcticABC blog: https://www.mare-incognitum.no/2020/05/26/arcticabc-buoy-drift-2019-2020-stranded-on-iceland%E2%80%8B/
+Background links:  
+GreenEdge: http://www.greenedgeproject.info/member_institutions.php  
+ArcticABC blog: https://www.mare-incognitum.no/2020/05/26/arcticabc-buoy-drift-2019-2020-stranded-on-iceland%E2%80%8B/  
 
 
 There are several #goals of this project and many may be inclusive of the whole group and some may be exclusive to an individual. 
 Bottom line: not everyone wants the same things out of this project, and that's ok. 
 
-Ground rules (Borrowed from B. Favaro):
--Treat everyone with respect and consideration /
--Communicate openly and thoughtfully with others and be considerate of the multitude of views and opinions that are different than your own. /
--Be respectful and mindful of your critique of ideas./
--Be respectful of the people of Qikiqtarjuaq and their sacred land and sea, for which we are only privelaged visitors./
+Ground rules (Borrowed from B. Favaro):  
+-Treat everyone with respect and consideration  
+-Communicate openly and thoughtfully with others and be considerate of the multitude of views and opinions that are different than your own.  
+-Be respectful and mindful of your critique of ideas.  
+-Be respectful of the people of Qikiqtarjuaq and their sacred land and sea, for which we are only privelaged visitors.  
 
 Add your own:
 -Don't talk over someone when they are speaking. The loudest voice can silence others. 
