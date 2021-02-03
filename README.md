@@ -5,8 +5,8 @@ This project is a collaboration among the members of the Geoffroy Marine Ecosyst
 
 All of the text below, can and should be amended by any member of the team.
 
-Any member of the lab is welcome to contribute the project and contributions can take many forms including:
--data procurement  
+Any member of the lab is welcome to contribute the project and contributions can take many forms including:  
+-data procurement    
 -data exploration  
 -data analysis  
 -data visualization  
