@@ -20,6 +20,8 @@ sl.depth <- sl.depth %>% #mutate(daynight = if_else(sun_altitude < 6, "Night", "
                                sun_altitude <= 6 & sun_altitude > -6 ~ "Twilight",
                                sun_altitude <= -6 ~ "Night"))
 
+sl.depth %>% mutate(daynight = if_else(sun_altitude < 6, "Night", "Day")) # used for rle()
+
 #calculate moving average
 ma <- function(x, n =150){stats::filter(x, rep(1 / n, n), sides = 2)}
 sl.depth$depth_ma <- ma(sl.depth$Depth_metres)
@@ -35,10 +37,30 @@ sl.depth %>% filter(ToD %in% "Day") %>%
 
 #try to average by migration event. 
 
-#snapshot
-sl.depth %>% filter(Index %in% c(30000:35000)) %>% 
-  ggplot(., aes(x=datetime, y=Depth_metres, color=ToD)) + geom_point()
+#run length encode based on day/night cycle
+sl.depth <- sl.depth %>%
+  mutate(newday = rle(sl.depth$daynight)$lengths %>% {rep(seq(length(.)), .)})
 
+
+#snapshots
+sl.depth  %>% filter(Index %in% c(30000:35000)) %>% 
+  ggplot(., aes(x=datetime, y=Depth_metres, color=ToD)) + geom_point() + scale_y_reverse() +
+  theme_minimal()
+
+sl.depth  %>% filter(Index %in% c(30000:35000)) %>% 
+  ggplot(., aes(x=datetime, y=Depth_metres, color=factor(newday))) + geom_point() + scale_y_reverse() +
+  theme_minimal()
+
+
+sl.depth %>% filter(Index %in% c(20000:40000)) %>% 
+  ggplot(., aes(x=datetime, y=Depth_metres, color=ToD)) + geom_point() + scale_y_reverse() +
+  theme_minimal()
+
+
+sl.depth %>% group_by(newday, ToD) %>% 
+  summarise(Depth_mean = mean(Depth_metres)) %>% 
+  filter(ToD %in% c("Day", "Night")) %>% 
+  ggplot(., aes(x=newday, y=Depth_mean, color=ToD)) + geom_point()
 
 
 
